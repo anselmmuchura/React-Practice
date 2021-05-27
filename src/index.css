@@ -11,8 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.home{
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width:90%;
+  margin: 0 auto;
+}
+.links{
+  display: flex;
+  list-style:none;
+  
+}
+.links li{
+  padding:1.5rem;
+  list-style:none;
+}
+.home, .addnew, .blog-detail{
   width:75%;
   margin: 0 auto;
 }
